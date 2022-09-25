@@ -65,18 +65,18 @@ body{
     background-repeat: no-repeat;
     position: fixed;
     top: 100px;
-    right: 530px;
+    right: 515px;
 }
 
 main{
     padding: 20px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .contenedor__todo{
     max-width: 800px; /*caja trasera medida*/
-    margin-left: 500px;
+    margin-left: 400px;
     position:relative;
 }
 
@@ -89,7 +89,7 @@ main{
 }
 
 .caja__trasera div{
-    margin: 80px 20px;
+    margin: 70px 20px;
     color: white;
     transition: all 500ms;
 }
@@ -176,5 +176,6 @@ main{
 </style>
 
 <script>
+    
 
 </script>
