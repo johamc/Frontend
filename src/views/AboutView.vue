@@ -24,13 +24,13 @@
             </a>
             <a href="#">
                 <div class="option">
-                    <i class="fa-sharp fa-solid fa-bed-pulse" title="Pacientes"></i>
+                  <font-awesome-icon icon="fas fa-bed-pulse"/>
                     <h4>Pacientes</h4>
                 </div>
             </a>
             <a href="#">
                 <div class="option">
-                    <i class="fa-solid fa-hospital-user" title="Médico"></i>
+                  <font-awesome-icon icon="fa-solid fa-hospital-user"/>
                     <h4>Médico</h4>
                 </div>
             </a>
