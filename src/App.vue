@@ -1,11 +1,20 @@
 <template>
  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">Menu</router-link> |
+    <router-link to="/">Login</router-link> |
+    <router-link to="/about">Home</router-link> |
     <router-link to="/quienes">Quienes Somos</router-link>
   </nav>
   <router-view/>
 </template>
+<script>
+export default {
+  computed :{
+    test() {
+      console.log(this.$route)
+    }
+  }
+}
+</script>
 
 <style>
 #app {

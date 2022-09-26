@@ -1,7 +1,7 @@
 <template>
   <div class="home">
   </div>
-  <main>
+  <main class="homeContent">
         <div class="contenedor__todo">
             <div class="caja__trasera">
                 <div class="caja__trasera-login">
@@ -23,7 +23,7 @@
                     <h2>Iniciar Sesión</h2>
                     <input type="text" placeholder="Documento de Identidad">
                     <input type="password" placeholder="Contraseña">
-                    <button>Entrar</button>
+                    <button v-on:click="entrar">Entrar</button>
                 </form>
                 <form action="" class="formulario__solicitud">
 
@@ -64,8 +64,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
-    top: 100px;
-    right: 515px;
+    top: 200px;
+    right: 500px;
 }
 
 main{
@@ -173,9 +173,20 @@ main{
 .formulario__solicitud{
     display: none;
 }
+
+.homeContent{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 250px;
+}
 </style>
 
 <script>
-    
-
+export default {
+  methods: {
+    entrar() {
+      console.log('Entro')
+    }
+  }
+}
 </script>
