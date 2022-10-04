@@ -23,6 +23,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #0e1b8f;
+  background-image: url(../assets/17973908.jpg);
 }
 
 nav {

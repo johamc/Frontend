@@ -25,15 +25,6 @@
                     <input type="password" placeholder="Contraseña">
                     <button v-on:click="entrar">Entrar</button>
                 </form>
-                <form action="" class="formulario__solicitud">
-
-                    <h2>Registro</h2>
-                    <input type="text" placeholder="Nombre Completo">
-                    <input type="text" placeholder="Documento de Identidad">
-                    <input type="text" placeholder="Correo Electrónico">
-                    <input type="password" placeholder="Contraseña">
-                    <button>Enviar</button>
-                </form>
             </div>
             <div class="photo"></div>
         </div>
@@ -50,7 +41,7 @@
 }
 
 body{
-    background-image: url(../assets/17973908.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
