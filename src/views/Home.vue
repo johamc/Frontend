@@ -26,12 +26,6 @@
             <router-link to="/familiar">Familiar Asignado</router-link>
           </div>
         </a>
-        <a>
-          <div class="option">
-            <font-awesome-icon icon="fa-solid fa-notes-medical"/>
-            <router-link to="/familiar">Notas Medicas</router-link>
-          </div>
-        </a>
 
       </div>
     </div>
