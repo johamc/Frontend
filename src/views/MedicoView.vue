@@ -2,7 +2,7 @@
     <main class="medico">
       <h1>Registro del Médico</h1>
       
-      <div class="Contenedor_Regis">
+      <div class="Cont_Regist">
         <a href="#">
           <font-awesome-icon icon="fa-solid fa-user-plus"/>
           <h4>Datos Personales</h4>
@@ -23,7 +23,7 @@
   
                 <div class="input_fields">
                   <label>Segundo Nombre</label>
-                  <input type="text" placeholder="Ingrese Apellido" required>
+                  <input type="text" placeholder="Ingrese Nombre" required>
                 </div>
   
                 <div class="input_fields">
@@ -33,12 +33,12 @@
   
                 <div class="input_fields">
                   <label>Segundo Apellido</label>
-                  <input type="date" placeholder="Ingrese fecha de Nacimiento" required>
+                  <input type="text" placeholder="Ingrese Apellido" required>
                 </div>
   
                 <div class="input_fields">
                   <label>Especialización</label>
-                  <input type="number" placeholder="Ingrese la Edad" required>
+                  <input type="text" placeholder="Ingrese Especialización" required>
                 </div>
   
                 <div class="ultimaFila">
@@ -101,7 +101,7 @@
   }
   
   /*---------------main-------------*/
-  .pacientes {
+  .medico {
     margin-top: 0;
   }
   .ultimaFila {
@@ -116,7 +116,7 @@
     width: 47% !important;
   }
   
-  .Contenedor_Regis {
+  .Cont_Regist {
     position: relative;
     min-width: 900px;
     width: 100%;
@@ -125,7 +125,7 @@
     background: white;
   }
   
-  .Contenedor_Regis a {
+  .Cont_Regist a {
     font-size: 20px;
     display: flex;
     color: var(--color-variante);
@@ -137,7 +137,7 @@
   
   }
 
-  .Contenedor_Regis a::before {
+  .Cont_Regist a::before {
   content: "";
   position: absolute;
   left: 0;
@@ -148,16 +148,16 @@
   border-radius: 8px;
 }
 
-.Contenedor_Regis a span {
+.Cont_Regist a span {
   font-size: 10px;
   transition: all 300ms ease;
 }
   
-  .Contenedor_Regis form {
+  .Cont_Regist form {
     margin-top: 16px;
   }
   
-  .Contenedor_Regis form .formulario {
+  .Cont_Regist form .formulario {
     background-color: white;
     transition: 0.3s ease;
   }
@@ -168,11 +168,11 @@
     transform: translate(-100%);
   }
   
-  .Contenedor_Regis form .datos {
+  .Cont_Regist form .datos {
     margin-top: 7px;
   }
   
-  .Contenedor_Regis .title {
+  .Cont_Regist .title {
     display: block;
     margin-bottom: 8px;
     font-size: 16px;
@@ -182,7 +182,7 @@
     align-items: center;
   }
   
-  .Contenedor_Regis .field {
+  .Cont_Regist .field {
     display: flex;
     align-items: center;
     justify-content: space-between;
