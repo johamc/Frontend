@@ -41,7 +41,7 @@
 }
 
 body{
-    
+    background-image: url(../assets/17973908.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

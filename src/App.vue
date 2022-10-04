@@ -17,13 +17,13 @@ export default {
 </script>
 
 <style>
+
 #app {
   font-family: 'Roboto', sans-serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #0e1b8f;
-  background-image: url(../assets/17973908.jpg);
 }
 
 nav {
